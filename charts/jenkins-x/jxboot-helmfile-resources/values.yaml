@@ -1,13 +1,11 @@
 ingress:
   # allows you to specify custom hosts
   customHosts:
-  hook: "https://localhost.ngrok.io"
-  customHosts:
     # specify your ngrok custom domain here
     # such as
     #    hook: "myuniqueid.ngrok.io
     # so that webhooks from, say, github.com, will work to your local laptop
-    hook: ""
+    hook: "http://fe7d-2001-4878-a228-3000-bd52-9c48-c2c1-ab72.ngrok.io"
 
 kaniko:
   # lets support insecure docker registries so that we
