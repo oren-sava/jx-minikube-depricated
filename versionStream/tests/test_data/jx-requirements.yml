@@ -19,7 +19,7 @@ environments:
     owner: ""
     repository: ""
 ingress:
-  domain: ""
+  domain: "192.168.64.3.nip.io"
   externalDNS: false
   tls:
     email: ""
